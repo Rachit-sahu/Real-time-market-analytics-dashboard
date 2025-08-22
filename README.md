@@ -1,12 +1,12 @@
-📊 Real-Time Market Analytics Dashboard
+📊 **Real-Time Market Analytics Dashboard** 
 
 A powerful financial analytics dashboard built with Python + Streamlit, enabling real-time market tracking, forecasting, and risk analysis for stocks & forex. Designed for traders, analysts, and researchers who want live data, AI-powered predictions, and deep risk insights in one interactive platform.
 <img width="668" height="821" alt="dashboard photo " src="https://github.com/user-attachments/assets/240f8ce6-1963-4799-92f5-3ec9b43071a8" />
 
 
-🚀 Key Features
+🚀 **Key Features**
 
-🔴 Real-Time Market Data
+🔴 **Real-Time Market Data**
 
 Live OHLCV Prices & Volume from Yahoo Finance
 
@@ -16,7 +16,7 @@ Configurable Auto-refresh (30s–300s)
 
 Multi-Asset Coverage: Tech stocks, ETFs, and major forex pairs
 
-🔮 Forecasting & AI Models
+🔮 **Forecasting & AI Models**
 
 ARIMA with automatic parameter tuning
 
@@ -26,7 +26,7 @@ Rolling Backtests with error metrics
 
 Interactive Forecast Visualizations
 
-⚖️ Risk Analytics
+⚖️ **Risk Analytics**
 
 Sharpe Ratio: Risk-adjusted return
 
@@ -46,7 +46,7 @@ Volatility & Correlation Matrix for portfolio-level insights
 
 📈 Backtesting Tab – Strategy performance (e.g., MA crossover)
 
-🏗️ Tech Stack
+🏗️ **Tech Stack**
 
 Frontend/UI: Streamlit + Plotly (interactive charts)
 
@@ -56,7 +56,7 @@ Machine Learning: TensorFlow/Keras (LSTM) & Statsmodels (ARIMA)
 
 Analytics: Pandas, NumPy, Scikit-learn, SciPy, Matplotlib
 
-📦 Installation
+📦 **Installation**
 Prerequisites
 
 Python 3.7+
@@ -71,7 +71,7 @@ Or with uv:
 
 uv add streamlit yfinance plotly pandas numpy scikit-learn tensorflow statsmodels scipy matplotlib seaborn
 
-🔧 Setup
+🔧 **Setup**
 
 Clone Repository
 
@@ -102,7 +102,7 @@ Run Forecasts (ARIMA, LSTM, or both)
 
 Explore Risk & Backtesting Tabs
 
-📊 Risk Metrics
+📊 **Risk Metrics**
 Metric	Meaning	Formula
 Sharpe Ratio	Risk-adjusted return	(R - Rf) / σ
 Max Drawdown	Largest peak-to-trough decline	max((Peak - Trough)/Peak)
@@ -118,7 +118,7 @@ Easily extendable via app.py:
 
 symbols = ["AAPL", "GOOGL", "YOUR_SYMBOL"]
 
-🏗️ Architecture
+🏗️ **Architecture**
 📂 Project Root
  ├── app.py              # Streamlit app & UI
  ├── data_fetcher.py     # Data retrieval (Yahoo/Alpha Vantage)
@@ -140,7 +140,7 @@ Limited LSTM epochs for responsiveness
 
 Fallback APIs & error handling
 
-🤝 Contributing
+🤝 **Contributing**
 
 Fork repo
 
@@ -152,7 +152,7 @@ Push → git push origin feature/awesome
 
 Open Pull Request 🎉
 
-📄 License
+📄 **License**
 
 Licensed under the MIT License
 
